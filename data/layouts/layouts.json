@@ -94,10 +94,10 @@
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
       "name": "LittlerootTown_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "width": 53,
+      "height": 32,
+      "primary_tileset": "gTileset_Start_Steppe",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/LittlerootTown/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown/map.bin"
     },
@@ -106,8 +106,8 @@
       "name": "OldaleTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_route_102",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/OldaleTown/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin"
     },
@@ -164,10 +164,10 @@
     {
       "id": "LAYOUT_ROUTE101",
       "name": "Route101_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "width": 60,
+      "height": 30,
+      "primary_tileset": "gTileset_Start_Steppe",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin"
     },
@@ -176,8 +176,8 @@
       "name": "Route102_Layout",
       "width": 50,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_route_102",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route102/border.bin",
       "blockdata_filepath": "data/layouts/Route102/map.bin"
     },
@@ -4410,6 +4410,16 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDALE_TOWN_G",
+      "name": "OldaleTownG_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_route_102",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/OldaleTownG/border.bin",
+      "blockdata_filepath": "data/layouts/OldaleTownG/map.bin"
     }
   ]
 }
